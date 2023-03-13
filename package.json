@@ -1,0 +1,20 @@
+{
+  "name": "pepsi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss":"node-sass -w ./scss/main.scss -o ./css/scssOut/ -r",
+    "scssM":"node-sass -w ./scss/main.scss -o ./css/scssOut/ -r --output-style compressed",
+    "tailwind":"npx tailwindcss -i ./tailwind/tailwind.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
